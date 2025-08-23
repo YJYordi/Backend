@@ -56,6 +56,31 @@ Desarrolle una funcion llamada missingNumbers que reciba una lista de números
 y retorne una lista de los números faltantes entre el menor y mayor de la lista.
 */
 
-function missingNumbers(){
-    
+function missingNumbers(numeros){
+    let max = numeros[0]
+    let min = numeros[0]
+    let missing = []
+    for(let i=0; i < numeros.length; i++){
+        if (max < numeros[i]){
+            max = numeros[i]
+        }
+        if (min > numeros[i]){
+            min = numeros[i]
+        }
+    }
+    for(let i=min+1; i < max; i++){
+        let found = false
+        for(let j=0; j < numeros.length; j++){
+            if (numeros[j] === i){
+                found = true
+                break
+            }
+        }
+        if(!found){
+            missing.push(i)
+        }
+    }
+    return missing
 }
+
+//console.log(missingNumbers([7, 2, 4, 6, 3, 9]))
