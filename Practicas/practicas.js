@@ -31,3 +31,14 @@ function entero(num){
 };
 
 //----------- Prueba ---------------
+/*
+1. Desarrolle una función que reciba un estudiante y retorne los nombres de los cursos del estudiante.
+2. Desarrolle una función que reciba un estudiante y retorne la nota maxima lograda por el estudiante.
+3. Desarrolle una función que reciba un estudiante y retorne si el estudiante mide mas de 1,65m.
+4. Desarrolle una función que reciba un estudiante el nombre completo del estudiante.
+5. Desarrolle una función que reciba dos estudiantes y retorne la diferencia de altura entre los
+estudiantes.
+6. Desarrolle una función que reciba un estudiante y retorne el estudiante con el campo
+'nombreCompleto' agregado.
+ 2024-03
+*/
