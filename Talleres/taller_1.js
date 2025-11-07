@@ -52,3 +52,5 @@ function peorParidad(num){
         return "par"
     }
 }
+
+export { convertidorTemp, resolvedor, mejorParidad, peorParidad };

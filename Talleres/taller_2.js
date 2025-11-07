@@ -84,3 +84,5 @@ function missingNumbers(numeros){
 }
 
 //console.log(missingNumbers([7, 2, 4, 6, 3, 9]))
+
+export { findMax, includes, sum, missingNumbers };

@@ -84,3 +84,5 @@ function descomposicion(palabra){
     return []
 }
 //console.log(descomposicion("malhumor,al,hum,humor,m,mal,malhu"))
+
+export { desglosarString, twoSum, conversionRomana, descomposicion };
