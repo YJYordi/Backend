@@ -69,6 +69,3 @@ function puntoCuatro(estudiantes) {
       est.info_personal.altura > max.info_personal.altura ? est : max
     ).info_personal.nombre + " " + jugadores[0].info_personal.apellido;
 }
-
-x = puntoCuatro(datos, 4)
-console.log(x);
